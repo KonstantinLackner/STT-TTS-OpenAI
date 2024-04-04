@@ -71,7 +71,7 @@ for chunk in stream:
 
 with client.audio.speech.with_streaming_response.create(
     model="tts-1",
-    voice="onyx",
+    voice="alloy",
     input=response_text,
 ) as response:
     # Save the generated speech to an MP3 file
